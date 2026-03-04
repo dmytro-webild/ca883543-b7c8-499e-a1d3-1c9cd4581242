@@ -30,7 +30,7 @@ export default function AmiManeraLanding() {
           navItems={[
             { name: "Inicio", id: "hero" },
             { name: "Productos", id: "features" },
-            { name: "Ubicación", id: "location" },
+            { name: "", id: "location" },
             { name: "FAQ", id: "/faq" },
             { name: "Contacto", id: "/contact" }
           ]}
@@ -140,7 +140,7 @@ export default function AmiManeraLanding() {
 
       <div id="location" data-section="location">
         <ContactCenter
-          tag="Ubicación"
+          tag=""
           tagIcon={MapPin}
           title="Visítanos en Nuestro Local"
           description="Encuentra nuestro establecimiento en el corazón del barrio. Abierto de lunes a domingo para servir tus delicias favoritas"
