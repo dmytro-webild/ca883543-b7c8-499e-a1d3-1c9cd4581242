@@ -31,7 +31,8 @@ export default function AmiManeraLanding() {
             { name: "Inicio", id: "hero" },
             { name: "Productos", id: "features" },
             { name: "Ubicación", id: "location" },
-            { name: "Contacto", id: "contact" }
+            { name: "FAQ", id: "/faq" },
+            { name: "Contacto", id: "/contact" }
           ]}
           brandName="A mi manera"
           bottomLeftText="Pastelería Artesanal"
@@ -148,38 +149,6 @@ export default function AmiManeraLanding() {
           inputPlaceholder="Tu email para ofertas"
           buttonText="Suscribirse"
           termsText="Recibe nuestras nuevas creaciones y promociones exclusivas"
-        />
-      </div>
-
-      <div id="faq" data-section="faq">
-        <FaqDouble
-          title="Preguntas Frecuentes"
-          description="Resuelve tus dudas sobre nuestros productos y servicios"
-          tag="FAQ"
-          tagIcon={HelpCircle}
-          faqs={[
-            {
-              id: "1",              title: "¿Cuál es el tiempo de entrega para pedidos personalizados?",              content: "Para tortas personalizadas, recomendamos hacer el pedido con 48 horas de anticipación. Entregas urgentes consultar disponibilidad."
-            },
-            {
-              id: "2",              title: "¿Ofrecen opciones sin gluten y sin lactosa?",              content: "Sí, contamos con línea de productos dietéticos. Consulta nuestros catálogos disponibles en tienda o por WhatsApp."
-            },
-            {
-              id: "3",              title: "¿Pueden decorar tortas con temas personalizados?",              content: "Absolutamente. Realizamos diseños únicos según tus preferencias. Solicita tu presupuesto sin compromiso."
-            },
-            {
-              id: "4",              title: "¿Ofrecen servicio de envío a domicilio?",              content: "Sí, disponible para la zona de Madrid. El envío tiene costo adicional según distancia."
-            },
-            {
-              id: "5",              title: "¿Qué métodos de pago aceptan?",              content: "Aceptamos efectivo, tarjeta de crédito, débito y transferencia bancaria para pedidos en línea."
-            },
-            {
-              id: "6",              title: "¿Tienen tienda física donde comprar?",              content: "Sí, visitanos en Calle Principal 123, Madrid. Horario: Lunes a Domingo de 9:00 a 20:00."
-            }
-          ]}
-          textboxLayout="default"
-          faqsAnimation="slide-up"
-          useInvertedBackground={false}
         />
       </div>
 
