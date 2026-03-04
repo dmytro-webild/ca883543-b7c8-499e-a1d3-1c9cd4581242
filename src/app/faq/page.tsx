@@ -25,7 +25,7 @@ export default function FAQPage() {
           navItems={[
             { name: "Inicio", id: "/" },
             { name: "Productos", id: "/#features" },
-            { name: "Ubicación", id: "/#location" },
+            { name: "", id: "/#location" },
             { name: "FAQ", id: "/faq" },
             { name: "Contacto", id: "/contact" }
           ]}
